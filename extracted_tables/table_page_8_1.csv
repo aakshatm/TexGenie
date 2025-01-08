@@ -1,0 +1,85 @@
+"S.N
+o","Use
+case
+Name",Description,Pre-condition,Post condition
+01,Perform Login,"User(admin,student or
+company) can
+perform login.","User having
+account",Login successful
+02,"Perform
+Logout","User(admin, student or
+company) can
+perform logout.",User logged in,"Successfully
+logged out"
+03,Update Details,"User(admin, student or
+company) can
+update their details.",User logged in,View details
+04,"Chang
+e
+Passwo
+rd","User(admin, student or
+company) can
+change passwords.","User
+having
+password.",Password is reset.
+05,"Manag
+e
+Compa
+ny","Admin can
+manage
+companies","Existing admin &
+atleast one
+company","Validated by
+admin & company
+can continue with
+it’s account"
+06,"Mana
+ge
+Studen
+ts","Admin can
+manage students","Existing admin &
+at least one
+student","Validated by
+admin & student
+can
+continue with
+it’s account"
+07,Apply for jobs,"Student can apply for
+job","Job should be there
+posted by company
+&
+student must
+be eligible for
+job","Applied for job
+successfully &
+wait
+for response
+from company"
+08,"View Job
+Status","Student can view
+job status","Student must
+have successfully
+applied for job.","Viewed job status
+& can accept job if
+selected else
+can apply for
+other job."
+09,Search jobs,"Student can search
+for job","Student must
+have account &
+logged in.","Can find a job
+or not."
+10,Post Jobs,Company can post jobs,"Company must
+have account &
+logged in.","Student can
+now apply for
+jobs."
+11,"View
+Applicatio
+ns","Company can view
+applications of
+students.","Atleast one
+student must have
+applied.","Company can
+react to
+applications."
